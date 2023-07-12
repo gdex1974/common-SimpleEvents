@@ -2,6 +2,7 @@
 
 #include <mutex>
 #include <queue>
+#include <optional>
 
 namespace stdx
 {

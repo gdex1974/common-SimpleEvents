@@ -12,5 +12,6 @@ target_include_directories(SimpleEvents PUBLIC .)
 # Add the gtest library
 find_package(GTest)
 if (GTEST_FOUND)
+    enable_testing()
     add_subdirectory(tests)
 endif()

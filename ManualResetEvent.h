@@ -2,6 +2,9 @@
 
 #include "SimpleEvent.h"
 
+#include <vector>
+#include <functional>
+
 namespace stdx
 {
 
